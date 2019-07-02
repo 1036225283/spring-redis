@@ -1,0 +1,22 @@
+server:
+  port: 2225
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url.defaultZone: http://localhost:7000/eureka/
+
+spring:
+    application:
+      name: spring-redis
+    redis:
+      port: 6379
+      password: xws
+      host: 127.0.0.1
+
+
+
+
+
